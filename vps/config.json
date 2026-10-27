@@ -1,0 +1,10 @@
+{
+  "device_id": "COLE_DEVICE_ID_AQUI",
+  "device_key": "COLE_DEVICE_KEY_AQUI",
+  "porta": 3030,
+  "intervaloHoras": 11,
+  "users": [
+    { "codigo": "CODIGO1", "usuario": "usuario1", "senha": "senha1" },
+    { "codigo": "CODIGO2", "usuario": "usuario2", "senha": "senha2" }
+  ]
+}

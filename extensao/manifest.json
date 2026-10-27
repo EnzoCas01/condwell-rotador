@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Condwell - Trocar usuário",
+  "version": "1.0",
+  "description": "Camada que troca o usuário do player Condwell com um clique.",
+  "content_scripts": [
+    {
+      "matches": ["*://player.condwell.com.br/*"],
+      "js": ["trocar-usuario.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
